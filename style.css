@@ -1,0 +1,25 @@
+body {
+    background-image: url("moln.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 3rem;
+    color: #000000;
+}
+
+.slime {
+    color: #1699e0;
+}
+
+.whiteColor {
+    color:#ffffff;
+}
