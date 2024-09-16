@@ -1,0 +1,15 @@
+body {
+    font-size: 1.2rem;
+
+    font-family: "Papyrus", "Copperplate", fantasy;
+}
+
+h1, h2, p {
+    max-width: 80ch;
+}
+
+.container {
+    max-width: 56rem;
+
+    margin: 0 auto;
+}

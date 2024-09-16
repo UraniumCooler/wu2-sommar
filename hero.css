@@ -1,0 +1,45 @@
+img {
+    max-width: 100%;
+}
+
+
+body,html {
+    margin: 0;
+}
+
+
+.hero {
+    position: relative;
+    height: 60vh;
+
+    .overlay {
+        top: 0;
+        left: 0;
+        height: 60vh;
+        width: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+
+    h1 {
+        position: absolute;
+        font-family: "Papyrus", "Copperplate", fantasy;
+        font-size: 6rem;
+        color: rgb(241, 225, 134);
+        padding: 2rem;
+    }
+
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        aspect-ratio: 16/9;
+        height: 60vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
